@@ -1,11 +1,11 @@
-*Simple ThreeJS Model Loader For The Internet Computer v1.1.0*
-**Author: cp-daniel-mccoy**
+# Simple ThreeJS Model Loader For The Internet Computer v1.1.0
+## Author: cp-daniel-mccoy**
 
 This was designed as an easy to setup, easy to integrate 3D model loader ready for deployment on the internet computer. Currently this pacakge supports one of two modes (GLTF/GLB) or (VRM).
 
-**Instructions:**
+### Instructions:
 
-****On First Clone:****
+#### On First Clone:
 
 In order to generate the vite profile for this project you must run a few commands the first time through. Once you run these commands you can then run/deploy the program with your normal npm ops.
 
@@ -16,12 +16,12 @@ dfx deploy
 dfx stop
 ```
 
-****To Run:****
+*To Run:*
 ```
 npm run dev
 ```
 
-****To Build:****
+*To Build:*
 ```
 npm run build
 ```
