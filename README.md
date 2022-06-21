@@ -1,5 +1,5 @@
-## Simple ThreeJS Model Loader For The Internet Computer v1.1.0
-### Author: cp-daniel-mccoy**
+## Simple ThreeJS Model Loader For The IC
+### Author: cp-daniel-mccoy
 
 This was designed as an easy to setup, easy to integrate 3D model loader ready for deployment on the internet computer. Currently this pacakge supports one of two modes (GLTF/GLB) or (VRM).
 
