@@ -5,7 +5,7 @@ This was designed as an easy to setup, easy to integrate 3D model loader ready f
 
 ### Instructions:
 
-*On First Clone:*
+**On First Clone:**
 
 In order to generate the vite profile for this project you must run a few commands the first time through. Once you run these commands you can then run/deploy the program with your normal npm ops.
 
