@@ -1,7 +1,7 @@
 ## Simple ThreeJS Model Loader For The IC
 ### Author: cp-daniel-mccoy
 
-This was designed as an easy to setup, easy to integrate 3D model loader ready for deployment on the internet computer. Currently this pacakge supports one of two modes (GLTF/GLB) or (VRM).
+This was designed as an easy to setup, easy to integrate 3D model loader ready for deployment on the internet computer. Currently this pacakge supports one of two modes (GLTF/GLB) or (VRM) and is only built in VueJS. A react version is planned.
 
 ### Instructions:
 
