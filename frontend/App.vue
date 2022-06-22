@@ -77,7 +77,7 @@ render();
 
 function init() {       
 	const container = document.createElement( 'div' );
-  container.setAttribute("class", "content");
+  	container.setAttribute("class", "content");
 	document.body.appendChild( container );
 
 	camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.25, 20 );
@@ -85,17 +85,20 @@ function init() {
 
 	scene = new THREE.Scene();
 
+	let params = (new URL(document.location)).searchParams;
+    let tokenIndex = params.get('token');
+
 	const loader = new GLTFLoader();
-	loader.load( 'https://piwdi-uyaaa-aaaam-qaojq-cai.raw.ic0.app/assets/66_model.glb', function ( gltf ) {
+	loader.load( 'https://piwdi-uyaaa-aaaam-qaojq-cai.raw.ic0.app/assets/' + tokenIndex + '_model.glb', function ( gltf ) {
     gltf.scene.traverse( function ( child ) {
       if ( child.isMesh ) {
               
       }
     });
-  scene.add( gltf.scene );
-  console.log("GLTF NFT loaded successfully!");
-  render();
-  } );
+  	scene.add( gltf.scene );
+  	console.log("GLTF NFT loaded successfully!");
+  	render();
+  	});
         
 	renderer = new THREE.WebGLRenderer( { antialias: true, alpha: true } );
 	renderer.setPixelRatio( window.devicePixelRatio );
